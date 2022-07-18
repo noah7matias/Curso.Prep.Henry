@@ -1,0 +1,29 @@
+for:
+Se usa cuando se necesita repetir una tarea una determinada cantidad
+de veces mientras que se cumpla con alguna condición.
+Por ejemplo, cuando estás guardando tus medias en los cajones, vas
+agarrando un par de medias y las envuelves una dentro de la otra y
+la metes en el cajón. Vas y agarras otro par de medias y haces lo mismo.
+Cada vez que terminas de guardar un par miras si quedan medias, 
+si es así repites la tarea, y así hasta que no haya medias para guardar.
+
+&&:
+Se usa para evaluar dos condiciones a la vez, y decidir sobre ellas. 
+Por ejemplo, queremos elegir un restaurante para ir a cenar, pero queremos
+gastar menos de 1000 pesos por persona, y no queremos caminar más de 10 cuadras. 
+Entonces evaluamos varios lugares y evaluamos que el precio sea menor a 1000
+pesos y que la distancia sea menor a 10 cuadras. 
+Lo elegimos si: (precio < 1000) && (distancia < 10)
+
+||:
+Es similar a &&, pero en este caso nos sirve para elegir algo si se cumple
+al menos una de las dos condiciones. Queremos gastar poca plata o caminar
+poco para llegar al restaurante, al menos una de las dos cosas.
+Lo elegimos si: (precio < 1000) || (distancia < 10)
+
+!:
+Se usa para negar una expresión. Por ejemplo, podemos comparar dos cosas pero
+en lugar de querer que se cumplan las dos a la vez queremos que no se cumplan.
+En el caso del restaurante, evaluaremos en cada caso que el precio no sea 
+mayor a 1000 pesos y la distancia no sea mayor a 10 cuadras.
+Lo elegimos si: !(precio > 1000) && !(distancia > 10)
