@@ -1,0 +1,4 @@
+Arrays:
+Lo podemos pensar como un contenedor con divisiones, por ejemplo donde guardas los juguetes.
+Si quisieras indicar donde está uno de ellos, podrías contar la cantidad de juguetes que 
+hay antes que él, y de esta manera podrías indicarle a otra persona dónde encontrarlo.
